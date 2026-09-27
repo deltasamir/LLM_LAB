@@ -1,7 +1,7 @@
 from pydantic import BaseModel,Field
 from apps.core.enum import Weather_status 
 class Weather_data(BaseModel):
-    contry_name:str = Field(
+    country_name:str = Field(
         description="the name of the contry eg (france , algeria , usa ....)"
     )
     city_name:str = Field(
