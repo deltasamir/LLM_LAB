@@ -1,5 +1,5 @@
 from pydantic import BaseModel,Field
-from apps.core.enum import Weather_status 
+from apps.core.enum import WeatherStatus 
 class Weather_data(BaseModel):
     country_name:str = Field(
         description="the name of the contry eg (france , algeria , usa ....)"
@@ -10,7 +10,7 @@ class Weather_data(BaseModel):
     temperature:float = Field(
         description="the temperature on degree celcus"
     )
-    weather : Weather_status = Field(
+    weather : WeatherStatus = Field(
         description=" give the weather status eg rain ....."
     )
     humidity : float = Field(

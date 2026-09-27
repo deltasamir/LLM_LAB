@@ -1,7 +1,7 @@
 from enum import Enum
 
-class Weather_status(str,Enum):
-    CLEAR_SKY = "Clear sky"
+class WeatherStatus(str,Enum):
+    CLEARSKY = "Clear sky"
     PARTLY_CLOUDY = "Partly cloudy"
     CLOUDY = "Cloudy"
     OVERCAST = "Overcast"
@@ -15,12 +15,12 @@ class Weather_status(str,Enum):
     SLEET = "Sleet"
     HAIL = "Hail"
     WINDY = "Windy"
-    DUST_STORM ="Dust storm"
-    TROPICAL_STORM = "Tropical storm"
+    DUSTSTORM ="Dust storm"
+    TROPICALSTORM = "Tropical storm"
     HURRICANE = "Hurricane"
     BLIZZARD = "Blizzard"
-    EXTREME_HEAT = "Extreme heat"
-    EXTREME_COLD = "Extreme cold"
+    EXTREMEHEAT = "Extreme heat"
+    EXTREMECOLD = "Extreme cold"
     
     
     
